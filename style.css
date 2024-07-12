@@ -1,0 +1,91 @@
+body{
+   background: linear-gradient(to right, 
+   rgb(191, 149, 63), 
+   rgb(252, 246, 186), 
+   rgb(179, 135, 40), 
+   rgb(251, 245, 183), 
+   rgb(170, 119, 28)
+);
+
+}
+.container{
+    margin: auto;
+    width: 50%;
+    text-align:center;
+ }
+ .image-box{
+    width: 100%;
+ }
+ .image-box input[type="radio"]{
+    width: 60px;
+    height: 65px;
+    display: inline-block;
+    border-radius: 12%;
+    border: 1px solid #faf5f5;
+    outline: none;
+    appearance: none;
+    cursor: pointer;
+    box-shadow: 0 0 2px #fcfafa;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -ms-transtition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition:all 0.7s ease-in-out;
+ }
+ .image-box input[type="radio"]:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px #f8f6f6;
+ }
+ #img-01{
+    background-image: url(j10.png);
+    background-size: cover;
+ }
+ #img-02{
+    background-image: url(j11.png);
+    background-size: cover;
+ }
+ #img-03{
+    background-image: url(j9.png);
+    background-size: cover;
+ }
+ #img-04{
+    background-image: url(j8.png);
+    background-size: cover;
+ }
+ #img-05{
+    background-image: url(j7.png);
+    background-size: cover;
+ }
+ .image-bg{
+    width:100%;
+    height: 550px;
+    margin-top: 10px; 
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5); 
+    border-radius: 10%;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -ms-transtition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition:all 0.7s ease-in-out;
+ }
+ 
+ #img-01:checked ~ .image-bg{
+    background-image: url(j10.png);
+    background-size: cover;
+ }
+ #img-02:checked ~ .image-bg{
+    background-image: url(j11.png);
+    background-size: cover;
+ }
+ #img-03:checked ~ .image-bg{
+    background-image: url(j9.png);
+    background-size: cover;
+ }
+ #img-04:checked ~ .image-bg{
+    background-image: url(j8.png);
+    background-size: cover;
+ }
+ #img-05:checked ~ .image-bg{
+    background-image: url(j7.png);
+    background-size: cover;
+ }
